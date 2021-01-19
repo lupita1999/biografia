@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+
+/* utilidades*/
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.d-block {
+    display: block!important;
+}
+
+.contenedor {
+    max-width: 120rem;
+    /* igual  a 1200 px*/
+    margin: 0 auto;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+
+/* SECCION  INFERIOR*/
+
+.seccion-inferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior .blog {
+    flex-basis: 60%;
+}
+
+.seccion-inferior .testimoniales {
+    flex-basis: calc(40% - 2rem);
+}
+
+.entrada-blog {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.entrada-blog:nth-last-of-type() {
+    margin-bottom: 0;
+}
+
+.entrada-blog .imagen {
+    flex-basis: 40%;
+}
+
+.entrada-blog .texto-entrada {
+    flex-basis: calc( 60% - 3rem)
+}
+
+.texto-entrada a {
+    color: black;
+    text-decoration: none;
+}
+
+.texto-entrada h4 {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.testimonial {
+    background-color: #71B100;
+    font-size: 2.4rem;
+    padding: 2rem;
+    color: #ffffff;
+    border-radius: 2rem;
+}
+
+
+/*FOOTER*/
+
+.site-footer {
+    background-color: #333333;
+    margin: 0;
+}
+
+.contenedor-footer {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin: 0;
+    color: #ffffff;
+}
